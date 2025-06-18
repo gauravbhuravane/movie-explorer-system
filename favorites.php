@@ -16,8 +16,8 @@ $stmt->execute();
 $result = $stmt->get_result();
 ?>
 
-<div class="container mt-5">
-  <h2 class="text-center mb-4">❤️ Your Favorite Movies</h2>
+<div class="container mt-5 pt-5 ">
+
 
   <?php if ($result->num_rows > 0): ?>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
